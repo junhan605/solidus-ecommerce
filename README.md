@@ -51,13 +51,21 @@ Solidus is a complete open source e-commerce solution built with Ruby on Rails. 
   > bundle exec rails s
 
 * Run in productions mode
+
   > bundle exec rake db:create RAILS_ENV=production
+
   > bundle exec rake db:migrate RAILS_ENV=production
+
   > bundle exec rake railties:install:migrations RAILS_ENV=production
+
   > bundle exec rake db:migrate RAILS_ENV=production
+
   > bundle exec rake db:seed RAILS_ENV=production
+
   > bundle exec rake spree_sample:load RAILS_ENV=production
+
   > bundle exec rake assets:precompile RAILS_ENV=production
+
   > bundle exec rails s -e production
 
 * Performance
