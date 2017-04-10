@@ -73,6 +73,7 @@ bundle exec rake db:seed RAILS_ENV=production
 bundle exec rake spree_sample:load RAILS_ENV=production
 bundle exec rake assets:precompile RAILS_ENV=production
 bundle exec rails s -e production
+> or RAILS_SERVE_STATIC_FILES=true rails server -e production 
 ```
 
 ## Performance
