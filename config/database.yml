@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: solidus-ecommerce_production
-  username: solidus-ecommerce
-  password: <%= ENV['SOLIDUS-ECOMMERCE_DATABASE_PASSWORD'] %>
+  username: <%= ENV['SOLIDUS_ECOMMERCE_DATABASE_USERNAME'] %> #solidus-ecommerce
+  password: <%= ENV['SOLIDUS_ECOMMERCE_DATABASE_PASSWORD'] %>
