@@ -20,6 +20,7 @@ Solidus is a complete open source e-commerce solution built with Ruby on Rails. 
 ## Run
 ### To create a new Rails app, run below commands:
 ```shell
+rvm install ruby-2.4
 rvm use ruby-2.4
 rvm gemset create rails-5.0.2
 rvm gemset use rails-5.0.2
